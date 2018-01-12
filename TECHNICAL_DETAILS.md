@@ -1,5 +1,29 @@
 # Technical Details #
 
+## Summary of supported features & options ##
+
+| Option  | Status | Override via ASG conf |
+| ------- | :----: | :-------------------: |
+|Run on multiple regions | :white_check_mark: | :heavy_minus_sign: |
+|Keep a fixed minimum percentage of on-demand | :white_check_mark: | :white_check_mark: |
+|Keep a fixed minimum number of on-demand | :white_check_mark: | :white_check_mark: |
+|Can bid at a certain percentage of the on-demand price | :white_check_mark: | :white_check_mark: |
+|Can bid the current spot price plus a certain percentage | :white_check_mark: | :white_check_mark: |
+|Whitelisting of certain instance types | :x: | :heavy_minus_sign: |
+|Blacklisting of certain instance types | :white_check_mark: | :x: |
+
+| Feature | Status |
+| ------- | :----: |
+|Install via Cloudformation | :white_check_mark: |
+|Install via Terraform | :white_check_mark: |
+|Works with code deploy | :white_check_mark: |
+|Works with beanstalk | :white_check_mark: |
+|Lambda X-Ray support | :x: |
+|Graphing savings | :x: |
+|Windows support | :x: |
+|Handle spot termination's signal | :x: |
+|SNS notifications on success/failure | :x: |
+
 ## Features and Benefits ##
 
 - **Significant cost savings compared to on-demand or reserved instances**
