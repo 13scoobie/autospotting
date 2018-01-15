@@ -5,19 +5,21 @@
 | Option  | Status | Override via ASG conf |
 | ------- | :----: | :-------------------: |
 |Run on multiple regions | :white_check_mark: | :heavy_minus_sign: |
-|Keep a fixed minimum percentage of on-demand | :white_check_mark: | :white_check_mark: |
-|Keep a fixed minimum number of on-demand | :white_check_mark: | :white_check_mark: |
+|[Keep a fixed minimum percentage of on-demand](https://github.com/cristim/autospotting/blob/master/START.md#minimum-on-demand-configuration) | :white_check_mark: | :white_check_mark: |
+|[Keep a fixed minimum number of on-demand](https://github.com/cristim/autospotting/blob/master/START.md#minimum-on-demand-configuration) | :white_check_mark: | :white_check_mark: |
 |Can bid at a certain percentage of the on-demand price | :white_check_mark: | :white_check_mark: |
 |Can bid the current spot price plus a certain percentage | :white_check_mark: | :white_check_mark: |
 |Whitelisting of certain instance types | :x: | :heavy_minus_sign: |
 |Blacklisting of certain instance types | :white_check_mark: | :x: |
 
+For the options not directly linked to any specific part of the doc, please check [the configuration page](https://github.com/cristim/autospotting/blob/master/START.md#configuration-of-autospotting).
+
 | Feature | Status |
 | ------- | :----: |
-|Install via Cloudformation | :white_check_mark: |
-|Install via Terraform | :white_check_mark: |
+|[Install via Cloudformation](https://github.com/cristim/autospotting/blob/master/START.md#install-via-cloudformation) | :white_check_mark: |
+|[Install via Terraform](https://github.com/cristim/autospotting/blob/master/START.md#install-via-terraform) | :white_check_mark: |
 |Works with code deploy | :white_check_mark: |
-|Works with beanstalk | :white_check_mark: |
+|[Works with beanstalk](https://github.com/cristim/autospotting/blob/053135e97082511fb99b689dce4a7a7830f3327c/START.md#for-elastic-beanstalk) | :white_check_mark: |
 |Lambda X-Ray support | :x: |
 |Graphing savings | :x: |
 |Windows support | :x: |
