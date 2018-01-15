@@ -9,7 +9,7 @@
 |[Keep a fixed minimum number of on-demand](https://github.com/cristim/autospotting/blob/master/START.md#minimum-on-demand-configuration) | :white_check_mark: | :white_check_mark: |
 |Can bid at a certain percentage of the on-demand price | :white_check_mark: | :white_check_mark: |
 |Can bid the current spot price plus a certain percentage | :white_check_mark: | :white_check_mark: |
-|Whitelisting of certain instance types | :x: | :heavy_minus_sign: |
+|Whitelisting of certain instance types | [:beetle:](https://github.com/cristim/autospotting/pull/120#issuecomment-321856920) | :heavy_minus_sign: |
 |Blacklisting of certain instance types | :white_check_mark: | :x: |
 
 For the options not directly linked to any specific part of the doc, please check [the configuration page](https://github.com/cristim/autospotting/blob/master/START.md#configuration-of-autospotting).
@@ -20,6 +20,10 @@ For the options not directly linked to any specific part of the doc, please chec
 |[Install via Terraform](https://github.com/cristim/autospotting/blob/master/START.md#install-via-terraform) | :white_check_mark: |
 |Works with code deploy | :white_check_mark: |
 |[Works with beanstalk](https://github.com/cristim/autospotting/blob/053135e97082511fb99b689dce4a7a7830f3327c/START.md#for-elastic-beanstalk) | :white_check_mark: |
+|Support AWS VPC|:white_check_mark:|
+|Support AWS EC2Classic|[:beetle:](https://github.com/cristim/autospotting/issues/48)|
+|Support AWS DefaultVPC|[:beetle:](https://github.com/cristim/autospotting/issues/48#issuecomment-322123359)|
+|[Rancher compliance](http://rancher.com/reducing-aws-spend/)|:white_check_mark:|
 |Lambda X-Ray support | :x: |
 |Graphing savings | :x: |
 |Windows support | :x: |
